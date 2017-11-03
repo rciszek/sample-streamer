@@ -1,1 +1,2 @@
 # sample-streamer
+Python generator for parallel generation and streaming of simulations generated with MATLAB or GNU Octave scripts. Inteded to provide means to train machine learning algorithms with unlimited amounts of simulated data. Class *SampleStreamer* returns X and Y values produced by MATLAB or GNU Octave scripts, which are executed in parallel. The simulated data in stored in disk buffer and double buffering is used to prevent delays caused by disk access. 
